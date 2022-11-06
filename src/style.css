@@ -4,12 +4,14 @@ body {
   box-sizing: border-box;
   background-color: black;
 }
+
 .navbar {
   background-color: #673ba6;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
 }
+
 .navbar h3 {
   justify-self: flex-start;
   margin: 1.5rem;
@@ -17,10 +19,12 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
 ul li {
   list-style-type: none;
   margin: 1.5rem;
 }
+
 ul {
   margin: 0;
   display: flex;
@@ -28,25 +32,155 @@ ul {
   color: white;
   font-size: 1.2rem;
 }
+
 .main-heading {
   color: white;
   margin: 2rem;
   margin-right: 0;
   font-size: 3rem;
 }
+
 .main-heading h2 {
   font-weight: 350;
   letter-spacing: 2px;
 }
+
 .main-content {
-  max-width: 45%;
+  max-width: 45vw;
 }
+
 .main-content {
   color: white;
 }
+
 .main-content p {
   margin: 2rem;
   font-size: 1.2rem;
   text-align: justify;
   letter-spacing: 1.5px;
+}
+
+.btn-container {
+  margin: 2rem;
+}
+
+.btn {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  width: 200px;
+  margin-right: 1rem;
+  border: none;
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  background-color: #ef0947;
+  color: white;
+}
+
+.main-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-main {
+  display: block;
+  margin: 1.75rem;
+  border-radius: 5px;
+}
+
+.main-images {
+  justify-self: center;
+}
+
+.btn-menu {
+  width: 100px;
+}
+
+.items-btn-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.btn-menu {
+  margin-right: 3rem;
+}
+.nav-btn {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.game {
+  display: flex;
+  max-width: 780px;
+  margin: 0 auto;
+  color: white;
+  border-bottom: 5px dotted #fdff8e;
+  margin-bottom: 1rem;
+}
+.game-img {
+  width: 50%;
+  height: 250px;
+  margin: 1rem;
+}
+.game-img img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+.main-vision {
+  margin-top: 4rem;
+}
+.main-vision h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.main-vision p {
+  text-align: justify;
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+.member-img img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.team-member {
+  /* padding: 1rem; */
+  height: 300px;
+  /* width: 25%; */
+  background-color: #ef0947;
+  border-radius: 10px;
+}
+.member-info h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.team {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+.game-text h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+.game-btn {
+  width: 150px;
 }
